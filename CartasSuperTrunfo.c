@@ -1,5 +1,4 @@
 #include <stdio.h>
-<<<<<<<<< Temporary merge branch 1
 #include <stdlib.h>
 #include <locale.h>
 
@@ -21,8 +20,7 @@ int main() {
 
     printf("Digite a população da cidade:\n");
     scanf("%d", &populacao); 
-=========
-
+}
 int main() {
 
     char cidade[20], cidade2[20];
@@ -38,7 +36,6 @@ int main() {
 
     printf("Digite a população da cidade:\n");
     scanf("%d", &populacao);
->>>>>>>>> Temporary merge branch 2
 
     printf("Digite a área da cidade:\n");
     scanf("%f", &area);
@@ -49,7 +46,6 @@ int main() {
     printf("Digite o número de pontos turísticos da cidade:\n");
     scanf("%d", &pontosTuristicos);
 
-<<<<<<<<< Temporary merge branch 1
     // Exibição dos Dados da Carta
     printf("Nome da cidade: %s\n", nome);
     printf("Código da cidade: %d\n", codigo);
@@ -57,7 +53,7 @@ int main() {
     printf("Área da cidade: %.2f\n", area);
     printf("PIB da cidade: %.2f\n", PIB);
     printf("Número de pontos turísticos da cidade: %d\n", pontosTuristicos);
-=========
+
     // Exibição dos Dados da Carta 2
     printf("Digite o nome da cidade:\n");
     scanf("%s", estado2);
@@ -92,7 +88,6 @@ int main() {
     printf("Área da cidade: %.2f\n", area2);
     printf("PIB da cidade: %.2f\n", PIB2);
     printf("Número de pontos turísticos da cidade: %d\n", pontosTuristicos2);
->>>>>>>>> Temporary merge branch 2
 
     return 0;
 }
