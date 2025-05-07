@@ -17,16 +17,16 @@ int main() {
     scanf("%s", cidade);
 
     printf("Digite a população da cidade:\n");
-    scanf("%d", &populacao);
+    scanf("%d", populacao);
 
     printf("Digite a área da cidade:\n");
-    scanf("%f", &area);
+    scanf("%f", area);
 
     printf("Digite o PIB da cidade:\n");
-    scanf("%f", &PIB);
+    scanf("%f", PIB);
 
     printf("Digite o número de pontos turísticos da cidade:\n");
-    scanf("%d", &pontosTuristicos);
+    scanf("%d", pontosTuristicos);
 
     // Exibição dos Dados da Carta 2
     printf("Digite o nome da cidade:\n");
@@ -36,16 +36,16 @@ int main() {
     scanf("%s", cidade2);
 
     printf("Digite a população da cidade:\n");
-    scanf("%d", &populacao2);
+    scanf("%d", populacao2);
 
     printf("Digite a área da cidade:\n");
-    scanf("%f", &area2);
+    scanf("%f", area2);
 
     printf("Digite o PIB da cidade:\n");
-    scanf("%f", &PIB2);
+    scanf("%f", PIB2);
 
     printf("Digite o número de pontos turísticos da cidade:\n");
-    scanf("%d", &pontosTuristicos2);
+    scanf("%d", pontosTuristicos2);
 
     // Exibição dos Dados da Carta1
     printf("Nome da cidade: %s\n", estado);
